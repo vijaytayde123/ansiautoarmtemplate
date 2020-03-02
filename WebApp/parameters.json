@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-08-01/deploymentParameters.json",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "siteName": {
+      "value": "Automation-WebApp"
+    },
+    "appServicePlanName": {
+      "value": "Automation-ASP"
+    },
+    "ResourceGroupName": {
+      "value": "AutomationOne"
+    },
+    "AppServicePlanLocation": {
+      "value": "North Central US"
+
+    }
+  }
+}
